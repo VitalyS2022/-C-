@@ -2,7 +2,7 @@
 
 string[] array1 = new string[10] {"ACG6", "123", "F2G", "AQ", "12", "67", "890", "WERT", "A", "1"};
 string[] array2 = new string[array1.Length];
-int count = 0;
+int a = 0;
 
 void massive(string[] array1, string[] array2)
 {
@@ -11,8 +11,8 @@ void massive(string[] array1, string[] array2)
     {
     if(array1[i].Length <= 3)
         {
-        array2[count] = array1[i];
-        count++;
+        array2[a] = array1[i];
+        a++;
         }
     }
 }
